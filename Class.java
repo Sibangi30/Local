@@ -1,5 +1,4 @@
 package Local;
-
 public class Class {
     public static void main(String a[]){
 
