@@ -1,3 +1,4 @@
+package Local ;
 import java.util.Scanner;
 import javax.swing.*;
 
