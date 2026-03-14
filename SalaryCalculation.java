@@ -1,14 +1,15 @@
-package Local ;
+package Local;
+
 import java.util.Scanner;
 
-// Define the interface
+
 interface Salary {
     double earnings(double basic);
     double deductions(double basic);
     double bonus(double basic);
 }
 
-// Manager class implements Salary but does not implement bonus()
+
 abstract class Manager implements Salary {
     public double earnings(double basic) {
         return basic + (0.8 * basic) + (0.15 * basic); 
