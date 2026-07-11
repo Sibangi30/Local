@@ -21,3 +21,4 @@ public class Zero {
         System.out.println("Number of zeros: " + countZerosMath(number)); // Output: 3
     }
 }
+
